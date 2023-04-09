@@ -1,0 +1,45 @@
+
+
+canvas-container {
+  width: 500px; /* Cambia el ancho máximo a tu gusto */
+  margin: 0 auto;
+}
+
+canvas {
+  display: block;
+  width: 500px;
+  height: auto;
+}
+
+
+
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: red;
+  text-align: center;
+}
+
+.you-win {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: green;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  .game-over, .you-win {
+    font-size: 3rem;
+  }
+}
